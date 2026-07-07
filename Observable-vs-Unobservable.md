@@ -322,43 +322,7 @@ Examples include
 
 </ul>
 
-<hr>
 
-<h2>💡 The Key Idea of Fixed Effects</h2>
-
-<p>
-
-The Fixed Effects estimator removes the individual effect (<b>αᵢ</b>) by comparing each individual with themselves over time.
-
-</p>
-
-<blockquote>
-
-<b>Instead of asking</b>
-
-<br><br>
-
-Why does Alice earn more than Bob?
-
-<br><br>
-
-<b>it asks</b>
-
-<br><br>
-
-How did Alice's wage change after gaining more experience?
-
-</blockquote>
-
-<p>
-
-Since Alice's ability remains constant over time, it disappears from the estimation.
-
-Therefore, Fixed Effects controls for all time-invariant unobservable characteristics.
-
-</p>
-
-<hr>
 
 <h2>🔄 Observable vs. Unobservable Variables</h2>
 
@@ -446,8 +410,3 @@ The main objective of panel estimators is not simply to improve efficiency but t
 
 <hr>
 
-<div align="center">
-
-<b>⬅ Previous</b> | <a href="../README.md"><b>🏠 Home</b></a> | <b>Next ➜ Consistency of Estimators</b>
-
-</div>
