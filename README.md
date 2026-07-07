@@ -5,7 +5,7 @@ This repository summarize all practical codes to run panel data econometrics mod
 lm() isn't a package — it's a built-in function in R (part of the base stats package that loads automatically). It fits linear models using ordinary least squares (OLS) regression.
 Basic usage looks like this:
 
-model <- lm(y ~ x1 + x2, data = mydata)  ### mydata is the dataset
+model <- lm(y ~ x1 + x2, data = mydata)       ### mydata is the dataset
 
 summary(model)
 
