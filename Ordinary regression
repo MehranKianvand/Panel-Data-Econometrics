@@ -1,3 +1,6 @@
 -- R
 model <- lm(y ~ x1 + x2, data = mydata)
 summary(model)
+
+-- stata
+regress y x1 x2
