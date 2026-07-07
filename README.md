@@ -6,6 +6,7 @@ lm() isn't a package — it's a built-in function in R (part of the base stats p
 Basic usage looks like this:
 
 model <- lm(y ~ x1 + x2, data = mydata)  ### mydata is the dataset
+
 summary(model)
 
 The formula y ~ x1 + x2 means "regress y on x1 and x2". An intercept is included by default. summary() gives you coefficients, standard errors, t-statistics, p-values, R², and F-statistic.
